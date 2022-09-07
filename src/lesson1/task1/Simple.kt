@@ -1,5 +1,3 @@
-@file:Suppress("UNUSED_PARAMETER")
-
 package lesson1.task1
 
 import kotlin.math.*
