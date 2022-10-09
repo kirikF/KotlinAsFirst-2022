@@ -1,7 +1,8 @@
+@file:Suppress("UNUSED_PARAMETER")
+
 package lesson1.task1
 
 import kotlin.math.*
-
 // Урок 1: простые функции
 // Максимальное количество баллов = 5
 // Рекомендуемое количество баллов = 4
@@ -101,7 +102,7 @@ fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double =
  * Пользователь задает целое число, больше или равно 100 (например, 3801).
  * Определить третью цифру справа в этом числе (в данном случае 8).
  */
-fun thirdDigit (number: Int): Int = (number % 1000) / 100
+fun thirdDigit(number: Int): Int = (number % 1000) / 100
 /**
  * Простая (2 балла)
  *
