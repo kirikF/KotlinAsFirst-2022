@@ -72,7 +72,16 @@ fun digitCountInNumber(n: Int, m: Int): Int =
  *
  * Использовать операции со строками в этой задаче запрещается.
  */
-fun digitNumber(n: Int): Int = TODO()
+fun digitNumber(n: Int): Int {
+    if (n == 0) return 1
+    var x = n
+    var y = 0
+    while (x != 0) {
+        x /= 10
+        y += 1
+    }
+    return y
+}
 
 /**
  * Простая (2 балла)
